@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFDFC;
+    background-color: #1d1d1d;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(imagenes/AvenidaElectronFondo.webp);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.menu-icono {
+    width: 80px;
+  }
+
+  .navbar ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar ul li a {
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFDFC;
+    font-weight: 600;
+  }
+  
+  .navbar ul li a:hover {
+    color: aquamarine;
+  }
+
+.logo {
+    color: #FFFDFC;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 10px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: aqua;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 150px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: #FF9500;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.coffee-img {
+    margin: 0 auto;
+    display: block;
+    max-width: 50%;
+  }
+  
+.coffee-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.coffee-1 {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 calc(30% - 20px);
+}
+
+.coffee-1 img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+link h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer {
+    padding: 30px;
+}
+
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+}

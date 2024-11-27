@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFDFC;
+    background-color: #101516;
+}
+
+.header {
+    background-image: url(imagenes/NFclockworkwumpaHD.webp);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-header .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Capa oscura para destacar el contenido */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header-top {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f0db4f;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Barra de navegación */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #f0db4f; /* Efecto hover */
+}
+
+
+/* Clips Virales */
+.product-menu {
+    padding: 40px 0;
+    text-align: center;
+    color: black;
+}
+
+.product-menu .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(77, 255, 246);
+}
+
+.box-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-1 {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.box-1:hover {
+    transform: scale(1.05);
+}
+
+.box-1 .image video, .box-1 .image img {
+    width: 100%;
+    height: auto;
+}
+
+.box-1 .content {
+    padding: 15px;
+}
+
+.info-txt {
+    color: aqua;
+    text-align: center;
+    width: 100%;
+    justify-items: center;
+}
+
+.info-img {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;         
+    margin-top: 20px;             
+}
+
+.info-img img {
+    width: 200px;             
+    height: auto;                
+    border-radius: 10px;         
+    transition: transform 0.3s; 
+}
+
+.info-img img:hover {
+    transform: scale(1.1); 
+}
+
+/* Footer General */
+.footer {
+    background-color: #101116; /* Fondo oscuro */
+    color: white;
+    padding: 40px 0;
+    font-size: 14px;
+}
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-top: 5px;
+}
+
+.footer-links {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+    color: #f0db4f;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #bbbbbb;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #f0db4f;
+}
+
+.footer-socials {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-socials h4 {
+    font-size: 16px;
+    color: #f0db4f;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 90px;
+    height: 80px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Inferior */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #bbbbbb;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}

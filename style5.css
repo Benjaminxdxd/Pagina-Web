@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('imagenes/Peligro\ Para\ Llevar.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 90px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Sección Torneo */
+.torneo-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffcc00;
+}
+
+.torneo-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.torneo-container p {
+    font-size: 1.2em;
+}
+
+/* Enfrentamientos */
+.enfrentamientos-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.enfrentamiento {
+    gap: 50px; /* Aumenta el espacio entre los logos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.jugador img {
+    width: 150px; /* Cambia de 80px a 150px */
+    height: 150px; /* Cambia de 80px a 150px */
+    border-radius: 50%; /* Mantén los bordes redondeados */
+    border: 3px solid #ffcc00; /* Aumenta el grosor del borde */
+}
+
+
+.jugador p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.vs {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Noticias Random */
+.noticias-container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.noticias-container h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.noticias-container p {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
